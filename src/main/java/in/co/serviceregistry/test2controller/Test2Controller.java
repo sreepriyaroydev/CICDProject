@@ -12,3 +12,5 @@ public class Test2Controller {
 		return "Test2 check successful";
 	}
 }
+
+

@@ -16,7 +16,7 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
-    - run: mvn dependency:tree
-    - uses: advanced-security/maven-dependency-submission-action@v3
-      with:
-        ignore-maven-wrapper: true
+    # - run: mvn dependency:tree
+    # - uses: advanced-security/maven-dependency-submission-action@v3
+    #   with:
+    #     ignore-maven-wrapper: true

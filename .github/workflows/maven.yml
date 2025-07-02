@@ -39,5 +39,5 @@ jobs:
     - name: Update dependency graph
       uses: advanced-security/maven-dependency-submission-action@v3
       with:
-        use-maven-wrapper: false  # 👈 Tells it to use system Maven instead of ./mvnw
+        ignore-maven-wrapper: true
       

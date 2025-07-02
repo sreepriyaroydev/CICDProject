@@ -15,7 +15,8 @@ on:
     branches: [ "main" ]
 permissions:
   contents: read
-  security-events: write  # 👈 Required for dependency submission
+  id-token: write
+  security-events: write
 
 jobs:
   build:
